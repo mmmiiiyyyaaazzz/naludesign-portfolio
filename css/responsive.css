@@ -152,4 +152,8 @@
   object-position: center top;
 }
 
+   .hero-title {
+  font-size: 2rem;
+}
+
 }

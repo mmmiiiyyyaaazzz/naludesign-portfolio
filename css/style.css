@@ -153,6 +153,7 @@ nav {
   border-bottom: 1px solid var(--paper-3);
   background: var(--ink);
   padding: 0.55rem 0;
+　position: relative;
 }
 
 .ticker-track {
@@ -598,7 +599,4 @@ footer {
   transform: translateY(-6.5px) rotate(-45deg);
 }
 
-.ticker-wrap {
-  overflow: hidden;
-  max-width: 100%;
-}
+

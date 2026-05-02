@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nalu design | Web Design & Coding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Sans+JP:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+  <span class="nav-logo">nalu design</span>
+  <button class="nav-toggle" aria-label="メニューを開く">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="#works">Works</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left fade-in">
+      <p class="hero-issue">Web Design &amp; Coding — Portfolio</p>
+      <h1 class="hero-title">
+        シンプルで<br>
+        <em>伝わる</em>Webを、<br>
+        丁寧につくります。
+      </h1>
+    </div>
+    <div class="hero-right fade-in" style="transition-delay: 0.15s;">
+      <p class="hero-desc">HTML / CSS / JavaScript を使ったコーディング、WordPressオリジナルテーマ制作など、Webサイト制作をお手伝いします。</p>
+      <a href="#works" class="hero-cta">Works を見る →</a>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker-wrap" aria-hidden="true">
+    <div class="ticker-track">
+      <span class="ticker-item"><span>✦</span>HTML / CSS</span>
+      <span class="ticker-item"><span>✦</span>JavaScript</span>
+      <span class="ticker-item"><span>✦</span>WordPress</span>
+      <span class="ticker-item"><span>✦</span>LP制作</span>
+      <span class="ticker-item"><span>✦</span>コーポレートサイト</span>
+      <span class="ticker-item"><span>✦</span>Photoshop</span>
+      <span class="ticker-item"><span>✦</span>HTML / CSS</span>
+      <span class="ticker-item"><span>✦</span>JavaScript</span>
+      <span class="ticker-item"><span>✦</span>WordPress</span>
+      <span class="ticker-item"><span>✦</span>LP制作</span>
+      <span class="ticker-item"><span>✦</span>コーポレートサイト</span>
+      <span class="ticker-item"><span>✦</span>Photoshop</span>
+    </div>
+  </div>
+
+  <!-- SKILLS STRIP -->
+  <div class="skills-strip">
+    <span class="skills-label">Skills</span>
+    <div class="skills-list">
+      <span class="skill-pill">HTML / CSS</span>
+      <span class="skill-pill">JavaScript</span>
+      <span class="skill-pill">WordPress</span>
+      <span class="skill-pill">LP制作</span>
+      <span class="skill-pill">コーポレートサイト</span>
+      <span class="skill-pill">Photoshop</span>
+      <span class="skill-pill">レスポンシブ対応</span>
+    </div>
+  </div>
+
+  <!-- WORKS -->
+  <section class="works-section" id="works">
+    <div class="section-header fade-in">
+      <h2 class="section-title">Works</h2>
+      <span class="section-meta">制作実績 — 04 pieces</span>
+    </div>
+
+    <div class="magazine-grid fade-in" style="transition-delay: 0.1s;">
+
+      <!-- Featured: メンズ眉毛サロン -->
+      <div class="work-card featured">
+        <div class="work-thumb thumb-salon">
+   
+          <img src="img/thumb-salon.png" alt="メンズ眉毛サロン想定LP">
+
+        </div>
+        <div class="work-info">
+          <p class="work-tag">Featured — LP制作</p>
+          <h3 class="work-title">メンズ眉毛サロン<br>想定LP</h3>
+          <p class="work-desc">メンズ向け眉毛サロンのランディングページ。ターゲットに響くデザインとコピーで、シンプルながら訴求力のあるLPを制作。</p>
+          <a href="https://mmmiiiyyyaaazzz.github.io/mens-eyebrow-salon-demo-lp/" target="_blank" rel="noopener" class="work-link">View Site →</a>
+        </div>
+      </div>
+
+      <!-- nalu design -->
+      <div class="work-card">
+        <div class="work-thumb thumb-nalu contain-img">
+          <img src="img/thumb-nalu.png" alt="nalu design 自社サイト"> 
+        </div>
+        <div class="work-info">
+          <p class="work-tag">コーポレートサイト</p>
+          <h3 class="work-title">nalu design<br>自社サイト</h3>
+          <p class="work-desc">WordPressオリジナルテーマで構築した自社トップページ。</p>
+          <a href="https://mmmiiiyyyaaazzz.github.io/nalu-design/" target="_blank" rel="noopener" class="work-link">View Site →</a>
+        </div>
+      </div>
+
+      <!-- コーポレートサイト想定 -->
+      <div class="work-card">
+        <div class="work-thumb thumb-corp">
+          <img src="img/thumb-corp.png" alt="コーポレートサイト想定" />
+        </div>
+        <div class="work-info">
+          <p class="work-tag">Webサイト制作</p>
+          <h3 class="work-title">コーポレートサイト<br>想定</h3>
+          <p class="work-desc">シンプルで無難、どんな業種にも対応できるコーポレートサイトのテンプレート制作。</p>
+          <a href="https://mmmiiiyyyaaazzz.github.io/template2-portfolio/" target="_blank" rel="noopener" class="work-link">View Site →</a>
+        </div>
+      </div>
+
+      <!-- Coming Soon -->
+<div class="work-card coming-soon">
+  <div class="work-thumb thumb-coming">
+    <div class="thumb-placeholder">
+      <span class="thumb-icon">+</span>
+    </div>
+  </div>
+  <div class="work-info">
+    <p class="work-tag">Coming Soon</p>
+    <h3 class="work-title">新作準備中</h3>
+    <p class="work-desc">整体・鍼灸院向けLPを制作中です。</p>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT & CONTACT -->
+  <div class="lower-grid" id="about">
+
+    <div class="about-section fade-in">
+      <p class="section-eyebrow">About</p>
+      <p class="about-lead"><span style="color:#6a8f95;">Webの力で、</span><br>あなたのビジネスを<br>前へ。</p>
+      <p class="about-body">
+        nalu designは、HTML / CSS / JavaScriptを中心としたフロントエンドコーディングと、WordPressオリジナルテーマ制作を行っています。<br><br>
+        「シンプルで伝わる」を大切に、お客様のビジネスや世界観に寄り添ったサイト制作をお手伝いします。
+      </p>
+    </div>
+
+    <div class="contact-section fade-in" id="contact" style="transition-delay: 0.1s;">
+      <p class="section-eyebrow">Contact</p>
+      <form class="contact-form" action="https://formspree.io/f/xwvykqon" method="POST">
+  <div class="form-field">
+    <label class="form-label" for="name">お名前</label>
+    <input class="form-input" id="name" name="name" type="text" placeholder="山田 花子" required />
+  </div>
+  <div class="form-field">
+    <label class="form-label" for="email">メールアドレス</label>
+    <input class="form-input" id="email" name="email" type="email" placeholder="hello@example.com" required />
+  </div>
+  <div class="form-field">
+    <label class="form-label" for="message">お問い合わせ内容</label>
+    <textarea class="form-textarea" id="message" name="message" placeholder="ご依頼・ご相談の内容をお書きください。" required></textarea>
+  </div>
+  <button class="form-submit" type="submit">送信する →</button>
+</form>
+      <div class="sns-row">
+        <a class="sns-link" href="https://www.instagram.com/naludesign2026" target="_blank">Instagram</a>
+        <a class="sns-link" href="https://x.com/naludesign2026" target="_blank">X (Twitter)</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="footer-logo">nalu design</span>
+    <span class="footer-copy">© 2026 nalu design. All rights reserved.</span>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

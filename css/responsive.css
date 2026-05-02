@@ -1,0 +1,155 @@
+/* ============================================
+   nalu design — responsive.css
+   スマートフォン・タブレット対応
+   ============================================ */
+
+/* ─── タブレット（768px以下）─── */
+@media (max-width: 768px) {
+
+  nav {
+    padding: 1rem 1.25rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 7rem 1.25rem 2rem;
+  }
+
+  .hero-right {
+    text-align: left;
+  }
+
+  .hero-desc {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .works-section {
+    padding: 2rem 1.25rem;
+  }
+
+  .magazine-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .work-card.featured {
+    grid-row: span 1;
+  }
+
+
+  .work-card.featured .work-thumb img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+  .work-card.featured .work-thumb {
+  aspect-ratio: 3 / 4;
+  max-height: 890px;
+}
+  .lower-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-section {
+    border-right: none;
+    border-bottom: 1px solid var(--paper-3);
+    padding: 2rem 1.25rem;
+  }
+
+  .contact-section {
+    padding: 2rem 1.25rem;
+  }
+
+  .form-submit {
+  align-self: center;
+  width: 100%;
+}
+
+  .skills-strip {
+    padding: 1rem 1.25rem;
+  }
+
+  footer {
+    padding: 1rem 1.25rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}
+
+/* ─── スマートフォン（480px以下）─── */
+@media (max-width: 480px) {
+
+  .nav-links {
+    gap: 1.2rem;
+  }
+
+  .hero-title {
+    font-size: 2.4rem;
+  }
+
+  .section-header {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .skills-list {
+    gap: 0.4rem;
+  }
+
+  .sns-row {
+    flex-wrap: wrap;
+  }
+
+  .form-submit {
+  align-self: center;
+  width: 100%;
+}
+
+.nav-toggle {
+  display: flex;
+}
+
+.nav-links {
+  display: none;
+  position: fixed;
+  top: 84px;  /* 56px → 62px、headerの高さに合わせて調整 */
+  left: 0;
+  right: 0;
+  background: #3D6B5E;  /* 透過なし */
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  padding: 0;
+  z-index: 99;
+}
+
+.nav-links.open {
+  display: flex;
+}
+
+.nav-links li {
+  width: 100%;
+  text-align: center;
+}
+
+.nav-links a {
+  display: block;
+  padding: 0.9rem 0;
+  font-size: 0.75rem;
+  border-bottom: 0.5px solid rgba(255,255,255,0.1);
+}
+
+.work-card.featured .work-thumb {
+  aspect-ratio: 3 / 4;
+  max-height: 540px;
+}
+
+.work-card.featured .work-thumb img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+}

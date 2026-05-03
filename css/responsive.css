@@ -166,4 +166,8 @@
     padding: 2rem 1.25rem;
   }
 
+    .lower-grid {
+    width: 100vw; /* ← 追加 */
+  }
+
 }

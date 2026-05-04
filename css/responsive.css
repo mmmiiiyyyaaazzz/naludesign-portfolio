@@ -189,3 +189,7 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
+* {
+  outline: 1px solid red;
+}

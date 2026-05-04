@@ -189,5 +189,29 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
+@media (max-width: 480px) {
+  .lower-grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
+  .about-section,
+  .contact-section {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding: 2rem 1.25rem;
+  }
+
+  .contact-form,
+  .form-field,
+  .form-input,
+  .form-textarea,
+  .form-submit {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+}
 

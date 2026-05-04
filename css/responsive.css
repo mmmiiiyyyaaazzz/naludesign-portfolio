@@ -170,7 +170,7 @@
     width: 100vw; /* ← 追加 */
   }
 
-    .contact-section * {
+    body * {
     max-width: 100%;
     overflow: hidden;
   }

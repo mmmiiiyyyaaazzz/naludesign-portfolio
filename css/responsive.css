@@ -161,7 +161,7 @@
 
 @media (max-width: 480px) {
   .skills-strip {
-    overflow-x: hidden;
+    
     flex-direction: column;
     align-items: flex-start;
   }
